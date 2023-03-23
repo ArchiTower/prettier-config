@@ -1,10 +1,11 @@
 {
-  "name": "new-package",
+  "name": "@architower/prettier-config",
   "version": "1.0.0",
-  "description": "A new package",
-  "main": "dist/index.js",
+  "description": "Architower's Prettier config",
+  "main": "src/index.js",
   "scripts": {
     "lint": "eslint --fix .",
+    "format": "prettier --write .",
     "release:ci": "semantic-release --ci",
     "prepare": "husky install"
   },
@@ -22,7 +23,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ArchiTower/new-package.git"
+    "url": "git@github.com:ArchiTower/prettier-config.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "prettier": "^2.8.0",
