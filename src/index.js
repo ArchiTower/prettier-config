@@ -15,9 +15,9 @@ module.exports = {
   endOfLine: "lf",
   singleAttributePerLine: false,
   plugins: [
-    require('@trivago/prettier-plugin-sort-imports'),
-    require('prettier-plugin-tailwindcss')
+    require("@trivago/prettier-plugin-sort-imports"),
+    require("prettier-plugin-tailwindcss"),
   ],
   importOrderSeparation: false,
-  importOrderSortSpecifiers: true
+  importOrderSortSpecifiers: true,
 }
