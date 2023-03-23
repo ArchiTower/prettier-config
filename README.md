@@ -1,13 +1,27 @@
 # prettier-config
 
-Our prettier config
+Our prettier config with TailwindCSS support & import sorting
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 
 ## How to use it?
 
-TODO
+If you just want to apply config in your repository, add key in `package.json`:
+
+```json
+{
+  "name": "my-cool-library",
+  "version": "9000.0.1",
+  "prettier": "@company/prettier-config"
+}
+```
+
+If you don’t want to use `package.json`, you can use any of the supported extensions to export a string, e.g. `.prettierrc.json`:
+
+```json
+"@company/prettier-config"
+```
 
 ## Development
 
@@ -44,8 +58,8 @@ In our repositories we're following the simple solution:
 <!-- Badges -->
 
 [npm-version-src]:
-  https://img.shields.io/npm/v/prettier-config?style=flat-square
-[npm-version-href]: https://npmjs.com/package/prettier-config
+  https://img.shields.io/npm/v/@architower/prettier-config?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@architower/prettier-config
 [npm-downloads-src]:
-  https://img.shields.io/npm/dm/prettier-config?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/prettier-config
+  https://img.shields.io/npm/dm/@architower/prettier-config?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/@architower/prettier-config
