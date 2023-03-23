@@ -1,12 +1,9 @@
-# A new package
+# prettier-config
 
-A new package description
+Our prettier config
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![test@main][ci-main-src]][ci-href]
-[![test@develop][ci-develop-src]][ci-href]
-[![Codecov][codecov-src]][codecov-href]
 
 ## How to use it?
 
@@ -17,14 +14,14 @@ TODO
 At first make a local copy of this repository, then install all the dependencies using `pnpm` or package manager of your choice:
 
 ```bash
-git clone git@github.com:ArchiTower/new-package.git
-cd new-package
+git clone git@github.com:ArchiTower/prettier-config.git
+cd prettier-config
 pnpm i
 ```
 
 Then, create a branch, make your changes in code, commit it following [gitmoji](https://gitmoji.dev/) & [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) styles.
 
-After that, push it and then create a [Pull Request](https://github.com/ArchiTower/new-package/pulls) with target to `develop` branch.
+After that, push it and then create a [Pull Request](https://github.com/ArchiTower/prettier-config/pulls) with target to `develop` branch.
 
 ### Branching
 
@@ -38,15 +35,8 @@ In our repositories we're following the simple solution:
 [MIT](./LICENSE.md)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/new-package?style=flat-square
-[npm-version-href]: https://npmjs.com/package/new-package
+[npm-version-src]: https://img.shields.io/npm/v/prettier-config?style=flat-square
+[npm-version-href]: https://npmjs.com/package/prettier-config
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/new-package?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/new-package
-
-[ci-main-src]: https://img.shields.io/github/actions/workflow/status/ArchiTower/new-package/test.yml?branch=main&style=flat-square
-[ci-develop-src]: https://img.shields.io/github/actions/workflow/status/ArchiTower/new-package/test.yml?branch=develop&style=flat-square
-[ci-href]: https://github.com/ArchiTower/new-package/actions/workflows/test.yml
-
-[codecov-src]: https://img.shields.io/codecov/c/gh/ArchiTower/new-package/main?style=flat-square
-[codecov-href]: https://codecov.io/gh/ArchiTower/new-package
+[npm-downloads-src]: https://img.shields.io/npm/dm/prettier-config?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/prettier-config
